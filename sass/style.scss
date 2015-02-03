@@ -122,9 +122,9 @@ div.main {
           img {
             width: 100%;
             max-width: 100%;
-            transition: transform 2s;
+            transition: transform 1s;
             &:hover {
-              transform: scale(1.1);
+              transform: scale(1.2);
             }
           }
         }
@@ -137,9 +137,35 @@ div.main {
       padding: 30px 70px;
 
       .couple {
+        position: relative;
         display: inline-block;
         width: 40%;
         float: left;
+        span {
+          position: absolute;
+          left: 0;
+          top: 76%;
+          z-index: 2;
+          &.inner {
+            top: 83%;
+            left: 15px;
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            border: 5px solid white;
+            display: inline-block;
+            font-size: 30px;
+            padding: 30px;
+          }
+          &.outer {
+            width: 230px;
+            height: 230px;
+            border-radius: 125px;
+            border: 5px solid white;
+            display: inline-block;
+            background: #cd2c2c;
+          }
+        }
         img {
           border: 5px solid white;
           width: 50%;
@@ -152,6 +178,20 @@ div.main {
           &:last-child {
             float: right;
             transform: rotate(15deg);
+          }
+        }
+
+        .list-container {
+          position: absolute;
+          right: 0;
+          z-index: 1;
+          margin-top: 20px;
+
+          .list {
+            width: 200px;
+            background: #ef9494;
+            margin-bottom: 20px;
+            border-radius: 10px;
           }
         }
       }

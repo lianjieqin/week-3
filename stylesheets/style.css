@@ -197,11 +197,11 @@ div.main section.bottom .image-container ul li {
 div.main section.bottom .image-container ul li img {
   width: 100%;
   max-width: 100%;
-  transition: transform 2s;
+  transition: transform 1s;
 }
 /* line 126, ../sass/style.scss */
 div.main section.bottom .image-container ul li img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 /* line 134, ../sass/style.scss */
 div.main section.bottom .love-story {
@@ -211,33 +211,76 @@ div.main section.bottom .love-story {
 }
 /* line 139, ../sass/style.scss */
 div.main section.bottom .love-story .couple {
+  position: relative;
   display: inline-block;
   width: 40%;
   float: left;
 }
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
+div.main section.bottom .love-story .couple span {
+  position: absolute;
+  left: 0;
+  top: 76%;
+  z-index: 2;
+}
+/* line 149, ../sass/style.scss */
+div.main section.bottom .love-story .couple span.inner {
+  top: 83%;
+  left: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 5px solid white;
+  display: inline-block;
+  font-size: 30px;
+  padding: 30px;
+}
+/* line 160, ../sass/style.scss */
+div.main section.bottom .love-story .couple span.outer {
+  width: 230px;
+  height: 230px;
+  border-radius: 125px;
+  border: 5px solid white;
+  display: inline-block;
+  background: #cd2c2c;
+}
+/* line 169, ../sass/style.scss */
 div.main section.bottom .love-story .couple img {
   border: 5px solid white;
   width: 50%;
 }
-/* line 147, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 div.main section.bottom .love-story .couple img:first-child {
   float: left;
   transform: rotate(-15deg);
 }
-/* line 152, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 div.main section.bottom .love-story .couple img:last-child {
   float: right;
   transform: rotate(15deg);
 }
-/* line 158, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
+div.main section.bottom .love-story .couple .list-container {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-top: 20px;
+}
+/* line 190, ../sass/style.scss */
+div.main section.bottom .love-story .couple .list-container .list {
+  width: 200px;
+  background: #ef9494;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/* line 198, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall {
   display: inline-block;
   width: 30%;
   float: right;
   text-align: left;
 }
-/* line 164, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall .title {
   position: relative;
   height: 50px;
@@ -252,7 +295,7 @@ div.main section.bottom .love-story .story-wall .title {
   margin-bottom: 25px;
   margin-left: 20px;
 }
-/* line 178, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall .title:after {
   content: '';
   background: #cd2c2c;
@@ -264,45 +307,45 @@ div.main section.bottom .love-story .story-wall .title:after {
   top: 5px;
   transform: rotate(45deg);
 }
-/* line 191, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall p {
   font-size: 18px;
   max-height: 400px;
   overflow: auto;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 footer {
   background: #84383C;
   height: 300px;
   color: #b9edf3;
   text-align: center;
 }
-/* line 207, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 footer ul {
   padding: 30px 0;
 }
-/* line 209, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 footer ul li {
   display: inline-block;
   width: 15%;
   margin-right: 160px;
   vertical-align: top;
 }
-/* line 215, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 footer ul li:last-child {
   margin-right: 0;
 }
-/* line 218, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 footer ul li .title {
   font-size: 25px;
 }
-/* line 220, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 footer ul li .title a {
   color: #b9edf3;
   text-decoration: underline;
 }
-/* line 225, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 footer ul li .category {
   font-size: 20px;
   text-align: left;

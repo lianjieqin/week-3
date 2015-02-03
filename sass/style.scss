@@ -1,2 +1,83 @@
 @import "compass/reset";
 @import "compass/css3";
+*:focus {
+  outline: none !important;
+}
+
+header {
+  height: 128px;
+  line-height: 128px;
+  background: #cd2c2c;
+  color: white;
+  padding: 0 10%;
+  font-family: "Source Sans Pro";
+
+  button {
+    height: 54px;
+    line-height: 50px;
+    width: 219px;
+    background: #f66767;
+    border: none;
+    text-shadow: none;
+    font-size: 22px;
+    float: right;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    letter-spacing: 1px;
+  }
+
+  .title {
+    position: relative;
+    float: left;
+    height: 128px;
+
+    .domain {
+      font-size: 50px;
+    }
+
+    .description {
+      font-size: 30px;
+      position: relative;
+      top: 30px;
+      right: 170px;
+    }
+  }
+}
+
+div.main {
+  section.top {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .login-field {
+      padding: 10px;
+      text-align: center;
+      font-family: "Source Sans Pro";
+      font-size: 26px;
+      color: white;
+      position: absolute;
+      top: 60px;
+      right: 12%;
+      background: rgba(54,63,75,0.7);
+      width: 400px;
+
+      .title {
+        border-bottom: 1px solid white;
+        line-height: 50px;
+      }
+
+      .login-info {
+
+      }
+      .form-group {
+        input {
+          width: 40%;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+

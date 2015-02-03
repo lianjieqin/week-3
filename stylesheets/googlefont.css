@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), font-url('qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), font-url('qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), font-url('RFda8w1V0eDZheqfcyQ4EKRDOzjiPcYnFooOUGCOsRk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), font-url('ZvcMqxEwPfh2qDWBPxn6nhAPw1J91axKNXP_-QX9CC8.woff') format('woff');
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local('Source Sans Pro'), local('Source-Sans-Pro'), font-url('SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Italic";
+  src: local('Source Sans Pro Italic'), local('Source-Sans-Pro-Italic'), font-url('SourceSansPro-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: local('Source Sans Pro Semibold'), local('Source-Sans-Pro-Semibold'), font-url('SourceSansPro-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Semibold Italic";
+  src: local('Source Sans Pro Semibold Italic'), local('Source-Sans-Pro-Semibold-Italic'), font-url('SourceSansPro-SemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Bree Serif";
+  src: local('Bree Serif'), local('Bree-Serif'), font-url('BreeSerif-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: local('Source Sans Pro Light'), local('Source-Sans-Pro-Light'), font-url('SourceSansPro-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Light Italic";
+  src: local('Source Sans Pro Light Italic'), local('Source-Sans-Pro-Light-Italic'), font-url('SourceSansPro-LightItalic.ttf') format('truetype');
+}

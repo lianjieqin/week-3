@@ -362,35 +362,36 @@ footer {
 /* line 283, ../sass/style.scss */
 footer ul {
   height: 300px;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
+  margin: 0;
 }
-/* line 286, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 footer ul li {
   display: inline-block;
   margin-right: 7%;
   vertical-align: top;
 }
-/* line 291, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 footer ul li:last-child {
   margin-right: 0;
 }
-/* line 294, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 footer ul li .title {
   font-size: 25px;
   text-align: left;
 }
-/* line 297, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 footer ul li .title a {
   color: #b9edf3;
   text-decoration: underline;
 }
-/* line 302, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 footer ul li .category {
   font-size: 18px;
   text-align: left;
   margin-top: 15px;
 }
-/* line 306, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 footer ul li .category img {
   width: 80%;
   margin-bottom: 8px;

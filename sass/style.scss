@@ -24,6 +24,31 @@ header {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     letter-spacing: 1px;
+    position: absolute;
+    margin-top: 30px;
+    top: 0;
+    right: 10%;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 52px;
+      border: 1px solid white;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: -19px;
+      left: -5px;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 52px;
+      border: 1px solid white;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -19px;
+      right: -7px;
+    }
   }
 
   .title {

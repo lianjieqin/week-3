@@ -90,18 +90,44 @@ header button {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   letter-spacing: 1px;
+  position: absolute;
+  margin-top: 30px;
+  top: 0;
+  right: 10%;
 }
-/* line 29, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
+header button:before {
+  content: '';
+  display: block;
+  width: 52px;
+  border: 1px solid white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -19px;
+  left: -5px;
+}
+/* line 42, ../sass/style.scss */
+header button:after {
+  content: '';
+  display: block;
+  width: 52px;
+  border: 1px solid white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -19px;
+  right: -7px;
+}
+/* line 54, ../sass/style.scss */
 header .title {
   position: relative;
   float: left;
   height: 128px;
 }
-/* line 34, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 header .title .domain {
   font-size: 45px;
 }
-/* line 38, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 header .title .description {
   font-size: 30px;
   position: relative;
@@ -109,15 +135,15 @@ header .title .description {
   right: 170px;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 div.main section.top {
   position: relative;
 }
-/* line 50, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 div.main section.top img {
   width: 100%;
 }
-/* line 53, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 div.main section.top .login-field {
   padding: 10px;
   text-align: center;
@@ -130,36 +156,36 @@ div.main section.top .login-field {
   background: rgba(54, 63, 75, 0.7);
   width: 400px;
 }
-/* line 65, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 div.main section.top .login-field .title {
   border-bottom: 1px solid white;
   line-height: 50px;
 }
-/* line 70, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 div.main section.top .login-field .login-info {
   margin: 30px 0 10px 0;
   font-size: 20px;
 }
-/* line 74, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 div.main section.top .login-field .login-info .selector {
   height: 90px;
 }
-/* line 77, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 div.main section.top .login-field .login-info .selector label {
   font-weight: 100;
 }
-/* line 80, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 div.main section.top .login-field .login-info .selector span {
   float: right;
   text-align: left;
   position: relative;
   left: -50px;
 }
-/* line 85, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 div.main section.top .login-field .login-info .selector span input {
   margin-right: 10px;
 }
-/* line 91, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 div.main section.top .login-field button {
   font-size: 18px;
   background: #b13132;
@@ -170,7 +196,7 @@ div.main section.top .login-field button {
   font-weight: 100;
   position: relative;
 }
-/* line 100, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 div.main section.top .login-field button:after {
   content: '';
   display: block;
@@ -183,21 +209,21 @@ div.main section.top .login-field button:after {
   transform: rotate(45deg);
   border-top: 2px solid white;
 }
-/* line 113, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 div.main section.top .login-field .share-options {
   text-align: right;
   margin-top: 20px;
   color: dodgerblue;
   cursor: pointer;
 }
-/* line 122, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 div.main section.bottom {
   text-align: center;
   background: #cd2c2c;
   font-family: "Source Sans Pro";
   color: white;
 }
-/* line 128, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 div.main section.bottom #workflow {
   width: 80%;
   background: white;
@@ -205,49 +231,49 @@ div.main section.bottom #workflow {
   border: 20px solid white;
   border-radius: 12px;
 }
-/* line 136, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 div.main section.bottom .image-container {
   width: 77%;
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 141, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 div.main section.bottom .image-container ul li {
   float: left;
   width: 20%;
 }
-/* line 144, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 div.main section.bottom .image-container ul li img {
   border: 2px solid white;
   width: 100%;
   max-width: 100%;
   transition: transform 1s;
 }
-/* line 149, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 div.main section.bottom .image-container ul li img:hover {
   transform: scale(1.2);
 }
-/* line 157, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 div.main section.bottom .love-story {
   overflow: hidden;
   margin: 20px 10% 0 10%;
   padding: 30px 70px;
 }
-/* line 162, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 div.main section.bottom .love-story .couple {
   position: relative;
   display: inline-block;
   width: 40%;
   float: left;
 }
-/* line 167, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 div.main section.bottom .love-story .couple span {
   position: absolute;
   left: 0;
   top: 76%;
   z-index: 2;
 }
-/* line 172, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 div.main section.bottom .love-story .couple span.inner {
   top: 83%;
   left: 15px;
@@ -260,7 +286,7 @@ div.main section.bottom .love-story .couple span.inner {
   padding: 30px;
   background: #cd2c2c;
 }
-/* line 184, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 div.main section.bottom .love-story .couple span.outer {
   width: calc(~'50% - 30px');
   height: calc(~'100% + 30px');
@@ -269,22 +295,22 @@ div.main section.bottom .love-story .couple span.outer {
   display: inline-block;
   background: #cd2c2c;
 }
-/* line 193, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 div.main section.bottom .love-story .couple img {
   border: 5px solid white;
   width: 50%;
 }
-/* line 197, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 div.main section.bottom .love-story .couple img:first-child {
   float: left;
   transform: rotate(-15deg);
 }
-/* line 202, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 div.main section.bottom .love-story .couple img:last-child {
   float: right;
   transform: rotate(15deg);
 }
-/* line 208, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 div.main section.bottom .love-story .couple .list-container {
   position: absolute;
   right: 0;
@@ -292,21 +318,21 @@ div.main section.bottom .love-story .couple .list-container {
   margin-top: 20px;
   width: 50%;
 }
-/* line 215, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 div.main section.bottom .love-story .couple .list-container .list {
   width: 100%;
   background: #ef9494;
   margin-bottom: 20px;
   border-radius: 10px;
 }
-/* line 223, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall {
   display: inline-block;
   float: right;
   text-align: left;
   position: relative;
 }
-/* line 229, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall .title {
   position: relative;
   height: 50px;
@@ -321,7 +347,7 @@ div.main section.bottom .love-story .story-wall .title {
   margin-bottom: 25px;
   margin-left: 20px;
 }
-/* line 243, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall .title:after {
   content: '';
   background: #cd2c2c;
@@ -333,7 +359,7 @@ div.main section.bottom .love-story .story-wall .title:after {
   top: 5px;
   transform: rotate(45deg);
 }
-/* line 256, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall p {
   width: 300px;
   margin-left: 20px;
@@ -341,7 +367,7 @@ div.main section.bottom .love-story .story-wall p {
   max-height: 400px;
   overflow: auto;
 }
-/* line 263, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 div.main section.bottom .love-story .story-wall .link {
   color: #17cacf;
   text-decoration: underline;
@@ -351,7 +377,7 @@ div.main section.bottom .love-story .story-wall .link {
   cursor: pointer;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 footer {
   background: #84383C;
   height: 250px;
@@ -359,39 +385,39 @@ footer {
   text-align: center;
   font-weight: 200;
 }
-/* line 283, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 footer ul {
   height: 250px;
   padding: 30px 0 0 0;
   margin: 0;
 }
-/* line 287, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 footer ul li {
   display: inline-block;
   margin-right: 7%;
   vertical-align: top;
 }
-/* line 292, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 footer ul li:last-child {
   margin-right: 0;
 }
-/* line 295, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 footer ul li .title {
   font-size: 25px;
   text-align: left;
 }
-/* line 298, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 footer ul li .title a {
   color: #b9edf3;
   text-decoration: underline;
 }
-/* line 303, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 footer ul li .category {
   font-size: 18px;
   text-align: left;
   margin-top: 15px;
 }
-/* line 307, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 footer ul li .category img {
   width: 80%;
   margin-bottom: 8px;

@@ -6,11 +6,13 @@
 		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<script src="javascripts/action.js"></script>
 		<link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="stylesheets/icon/style.css">
+		<link rel="stylesheet" href="stylesheets/animate.css">
 		</head>
 		<body>
 			<header>
@@ -18,7 +20,7 @@
 					<span class="domain">JieLOVE.COM</span>
 					<span class="description">where love begins</span>
 				</div>
-				<button>Member Login</button>
+				<button class="">Member Login</button>
 			</header>
 			<div class="main">
 				<section class="top">
@@ -42,7 +44,7 @@
 								</span>
 							</div>
 						</div>
-						<button>Find My Matches ></button>
+						<button id="action" onmouseover="change_class(this)" onmouseout="remove_class(this)">Find My Matches</button>
 						<div class="share-options">
 							<i class="icon-google-plus2"></i>
 							<i class="icon-facebook2"></i>
@@ -52,7 +54,7 @@
 					</div>
 				</section>
 				<section class="bottom">
-					<img class="workflow" src="images/workflow.png">
+					<img id="workflow" onmouseover="change_class1(this)" onmouseout="remove_class(this)" src="images/workflow.png">
 					<div class="image-container">
 						<!--<span class="top-stars">TOP STARS</span>-->
 						<ul>
@@ -78,7 +80,7 @@
 						<div class="couple">
 							<img src="images/F1.png">
 							<img src="images/M1.png">
-							<span class="outer"></span>
+							<!--<span class="outer"></span>-->
 							<span class="inner">95%</br>matching</br>points</span>
 							<div class="list-container">
 								<div class="list">Personality</div>
@@ -89,9 +91,9 @@
 						<div class="story-wall">
 							<div class="title">OUR LOVE STORY</div>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda beatae dicta distinctio dolorem error excepturi harum laboriosam obcaecati, perspiciatis placeat quia quod sapiente tempore, temporibus ullam voluptatum. Id, quisquam.
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda beatae dicta distinctio dolorem error excepturi harum laboriosam obcaecati, perspiciatis placeat quia quod sapiente tempore, temporibus ullam voluptatum. Id, quisquam.
+								Thank you JIElove.com for giving us our life's most precious present which is our wedding. In early July Angela sent me request on JIElove.com and we spoke to each other like we knew each other for ages. The first time we saw each other we knew that there was something special between us. We are happily married now and living ourselves to the fullest A many many thanks to JIElove.com for making this happen to us.
 							</p>
+							<span class="link">More Love Stories >></span>
 						</div>
 					</div>
 				</section>
@@ -126,12 +128,12 @@
 					<li>
 						<div class="title"><a href="">Available On</a></div>
 						<div class="category">
-							<p>First dating</p>
-							<p>Success stories</p>
-							<p>Date ideas</p>
+							<div><img src="images/googleplay.png"></div>
+							<div><img src="images/appstore.png"></div>
 						</div>
 					</li>
 				</ul>
 			</footer>
+
 		</body>
 	</html>
